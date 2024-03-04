@@ -26,9 +26,10 @@ class HomePage extends StatelessWidget {
         ),
         body: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Container(
-                color: Color.fromARGB(255, 83, 159, 77),
+                color: Color.fromARGB(255, 136, 222, 129),
                 height: 200,
                 width: 100),
             Container(
