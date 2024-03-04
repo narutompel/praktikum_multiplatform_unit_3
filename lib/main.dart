@@ -29,15 +29,15 @@ class HomePage extends StatelessWidget {
           children: <Widget>[
             Container(
                 color: Color.fromARGB(255, 83, 159, 77),
-                height: 100,
+                height: 200,
                 width: 100),
             Container(
                 color: Color.fromARGB(255, 67, 126, 253),
-                height: 100,
-                width: 100),
+                height: 150,
+                width: 60),
             Container(
                 color: Color.fromARGB(255, 250, 5, 120),
-                height: 100,
+                height: 200,
                 width: 100),
           ],
         ));
