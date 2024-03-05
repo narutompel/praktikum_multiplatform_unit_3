@@ -24,9 +24,7 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           title: Text('Praktikum Layout Flutter'),
         ),
-        body: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.stretch,
+        body: Column(
           children: <Widget>[
             Container(
                 color: Color.fromARGB(255, 136, 222, 129),
