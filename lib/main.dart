@@ -25,20 +25,18 @@ class HomePage extends StatelessWidget {
           title: Text('Praktikum Layout Flutter'),
         ),
         body: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Container(
                 color: Color.fromARGB(255, 136, 222, 129),
-                height: 200,
+                height: 500,
                 width: 100),
             Container(
                 color: Color.fromARGB(255, 67, 126, 253),
-                height: 150,
-                width: 60),
+                height: 500,
+                width: 100),
             Container(
                 color: Color.fromARGB(255, 250, 5, 120),
-                height: 200,
+                height: 00,
                 width: 100),
           ],
         ));
