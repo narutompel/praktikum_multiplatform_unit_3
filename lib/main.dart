@@ -24,7 +24,8 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           title: Text('Praktikum Layout Flutter'),
         ),
-        body: Column(
+        body: SingleChildScrollView(
+            child: Column(
           children: <Widget>[
             Container(
                 color: Color.fromARGB(255, 136, 222, 129),
@@ -39,6 +40,6 @@ class HomePage extends StatelessWidget {
                 height: 00,
                 width: 100),
           ],
-        ));
+        )));
   }
 }
