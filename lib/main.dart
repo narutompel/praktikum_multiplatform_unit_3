@@ -32,18 +32,11 @@ class HomePage extends StatelessWidget {
         // body:
         body: ListView(
           children: <Widget>[
-            Container(
-                color: Color.fromARGB(255, 136, 222, 129),
-                height: 500,
-                width: 100),
-            Container(
-                color: Color.fromARGB(255, 67, 126, 253),
-                height: 500,
-                width: 100),
-            Container(
-                color: Color.fromARGB(255, 250, 5, 120),
-                height: 00,
-                width: 100),
+            Padding(
+              padding: const EdgeInsets.all(0.0),
+              child: Image.network(
+                  "https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"),
+            ),
           ],
         ));
   }
