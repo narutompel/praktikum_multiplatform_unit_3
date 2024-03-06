@@ -21,9 +21,15 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        // header:
         appBar: AppBar(
-          title: Text('Praktikum Layout Flutter'),
+          title: Text('Unit 2: Profile Pengguna'),
+          centerTitle: true,
+          backgroundColor:
+              Color.fromARGB(255, 75, 199, 75), // Ubah warna latar belakang
+          foregroundColor: Color.fromARGB(255, 0, 0, 0), // Ubah warna teks
         ),
+        // body:
         body: ListView(
           children: <Widget>[
             Container(
