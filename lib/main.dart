@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
+import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(MyApp());
@@ -54,6 +55,34 @@ class HomePage extends StatelessWidget {
                   child: Icon(Icons.report),
                 ),
               ],
+            ),
+            const ListTile(
+              title: Text("Putu Adi Saputra"),
+              subtitle: Text("Nama"),
+            ),
+            const ListTile(
+              title: Text("Teknologi Informasi"),
+              subtitle: Text("Program Studi"),
+            ),
+            const ListTile(
+              title: Text("42130086"),
+              subtitle: Text("NIM"),
+            ),
+            const ListTile(
+              title: Text("6"),
+              subtitle: Text("Semester"),
+            ),
+            const ListTile(
+              title: Text("17 November 2022"),
+              subtitle: Text("Tanggal Lahir"),
+            ),
+            const ListTile(
+              title: Text("Warga Negara Indonesia"),
+              subtitle: Text("Kewarganegaraan"),
+            ),
+            const ListTile(
+              title: Text(
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Purus sit amet luctus venenatis lectus magna fringilla urna porttitor. Morbi quis commodo odio aenean. At imperdiet dui accumsan sit amet nulla. Turpis egestas maecenas pharetra convallis. Nulla at volutpat diam ut venenatis. Tempor orci eu lobortis elementum nibh tellus molestie nunc. Sed vulputate mi sit amet mauris commodo quis imperdiet massa. Vulputate eu scelerisque felis imperdiet."),
             )
           ],
         ));
