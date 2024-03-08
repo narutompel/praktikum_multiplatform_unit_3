@@ -31,15 +31,6 @@ class HomePage extends StatelessWidget {
               Color.fromARGB(255, 217, 1, 255), // Ubah warna latar belakang
           foregroundColor: Color.fromARGB(255, 0, 0, 0), // Ubah warna teks
         ),
-        drawer: TestDrawer(
-          child: SingleChildScrollView(
-            child: Column(
-              children: [
-                MyDrawer(),
-              ],
-            ),
-          ),
-        ),
         // body:
         body: ListView(
           children: <Widget>[
