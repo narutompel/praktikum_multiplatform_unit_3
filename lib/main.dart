@@ -28,8 +28,17 @@ class HomePage extends StatelessWidget {
           title: Text('Unit 2: Profile Pengguna'),
           centerTitle: true,
           backgroundColor:
-              Color.fromARGB(255, 75, 199, 75), // Ubah warna latar belakang
+              Color.fromARGB(255, 217, 1, 255), // Ubah warna latar belakang
           foregroundColor: Color.fromARGB(255, 0, 0, 0), // Ubah warna teks
+        ),
+        drawer: TestDrawer(
+          child: SingleChildScrollView(
+            child: Column(
+              children: [
+                MyDrawer(),
+              ],
+            ),
+          ),
         ),
         // body:
         body: ListView(
