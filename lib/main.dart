@@ -26,11 +26,11 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       // header:
       appBar: AppBar(
-        title: Text('Unit 2: Profil Pengguna'),
+        title: const Text('Unit 2: Profil Pengguna'),
         centerTitle: true,
         backgroundColor:
-            Color.fromARGB(255, 1, 192, 255), // Ubah warna latar belakang
-        foregroundColor: Color.fromARGB(255, 0, 0, 0), // Ubah warna teks
+            const Color.fromARGB(255, 1, 192, 255), // Ubah warna latar belakang
+        foregroundColor: const Color.fromARGB(255, 0, 0, 0), // Ubah warna teks
       ),
       // body:
       body: ListView(
@@ -97,8 +97,8 @@ Widget _myDrawer() {
     child: Drawer(
       child: ListView(
         padding: EdgeInsets.zero,
-        children: const [
-          UserAccountsDrawerHeader(
+        children: [
+          const UserAccountsDrawerHeader(
             currentAccountPicture: Image(
               image: AssetImage('images/profil.png'),
             ),
@@ -109,6 +109,21 @@ Widget _myDrawer() {
                     image: NetworkImage(
                         "https://images.unsplash.com/photo-1605111226859-dcf3cae324c8?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),
                     fit: BoxFit.cover)),
+          ),
+          ListTile(
+            leading: const Icon(Icons.home),
+            title: const Text("Beranda"),
+            onTap: () {},
+          ),
+          ListTile(
+            leading: const Icon(Icons.settings),
+            title: const Text("Pengaturan"),
+            onTap: () {},
+          ),
+          ListTile(
+            leading: const Icon(Icons.logout),
+            title: const Text("keluar"),
+            onTap: () {},
           ),
         ],
       ),
