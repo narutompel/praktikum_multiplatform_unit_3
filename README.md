@@ -1,3 +1,3 @@
 # praktikum_multiplatform_unit_3
 
-A new Flutter project.
+Flutter project membuat tampilan UI dengan widget yang ada.
